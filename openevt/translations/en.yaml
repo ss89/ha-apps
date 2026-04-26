@@ -1,0 +1,7 @@
+configuration:
+  address:
+    name: Inverter address
+    description: Address + port of the microinverter (e.g. 192.168.1.99:14889).
+  serial_number:
+    name: Inverter serial number
+    description: Serial number of the microinverter (e.g. 31583078).

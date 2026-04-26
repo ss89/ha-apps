@@ -1,0 +1,21 @@
+name: OpenEVT
+version: "1.0.0"
+slug: openevt
+description: >-
+  OpenEVT app. Connects to a compatible Envertech inverter and exposes
+  its data to Home Assistant. 
+  There are multiple ways to integrate into home assistant:
+  * [using home assistants rest integration](https://github.com/brandon1024/OpenEVT?tab=readme-ov-file#prometheus--home-assistant-integrations) (requires configuration.yaml adjustments)
+  * [using my HACS integration](https://github.com/ss89/ha-envertech-integration)
+arch:
+  - amd64
+  - aarch64
+ports:
+  9090/tcp: 9090
+options:
+  address: ""
+  serial_number: ""
+schema:
+  address: str
+  serial_number: str
+init: false

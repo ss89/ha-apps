@@ -1,0 +1,14 @@
+# OpenEVT
+
+This app scrapes data from compatible Envertech inverters and provides the data for home assistant users (and as prometheus metrics as well).
+
+There are multiple ways to integrate into home assistant:
+* [using home assistants rest integration](https://github.com/brandon1024/OpenEVT?tab=readme-ov-file#prometheus--home-assistant-integrations) (requires configuration.yaml adjustments)
+* [using my HACS integration](https://github.com/ss89/ha-envertech-integration)
+
+## Configuration
+
+Set the following options in the UI when installing the app:
+
+- address: Address including port for the Envertech inverter
+- serial number: Serial number for the Envertech inverter
