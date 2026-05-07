@@ -5,3 +5,21 @@ configuration:
   serial_number:
     name: Inverter serial number
     description: Serial number of the microinverter (e.g. 31583078).
+  web_listen_address:
+    name: Web listen address
+    description: Address on which to expose metrics (e.g. :9090).
+  telemetry_path:
+    name: Telemetry path
+    description: HTTP path under which to expose metrics.
+  disable_exporter_metrics:
+    name: Disable exporter metrics
+    description: Exclude go_* runtime metrics from the exporter.
+  poll_interval:
+    name: Poll interval
+    description: How often to poll the inverter (e.g. `10s`).
+  reconnect_interval:
+    name: Reconnect interval
+    description: How long to wait before reconnecting after a connection loss (e.g. 1m).
+  log_level:
+    name: Log level
+    description: "Logging verbosity: DEBUG, INFO, WARN, or ERROR."

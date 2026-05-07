@@ -11,7 +11,19 @@ ports:
 options:
   address: ""
   serial_number: ""
+  web_listen_address: ":9090"
+  telemetry_path: "/metrics"
+  disable_exporter_metrics: false
+  poll_interval: "5s"
+  reconnect_interval: "1m"
+  log_level: INFO
 schema:
   address: str
   serial_number: str
+  web_listen_address: str
+  telemetry_path: str
+  disable_exporter_metrics: bool
+  poll_interval: str
+  reconnect_interval: str
+  log_level: str
 init: false
