@@ -16,7 +16,7 @@ configuration:
     description: Exclude go_* runtime metrics from the exporter.
   poll_interval:
     name: Poll interval
-    description: How often to poll the inverter (e.g. `10s`).
+    description: How often to poll the inverter (e.g. `10s`). Use `0s` for library default.
   reconnect_interval:
     name: Reconnect interval
     description: How long to wait before reconnecting after a connection loss (e.g. 1m).

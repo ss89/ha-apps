@@ -15,6 +15,6 @@ Set the following options in the UI when installing the app:
 * **web_listen_address**: Address on which to expose metrics (default: `:9090`)
 * **telemetry_path**: Path under which to expose metrics (default: `/metrics`)
 * **disable_exporter_metrics**: Exclude go_* runtime metrics (default: `false`)
-* **poll_interval**: Poll interval duration, e.g. `10s` (default: `5s`)
+* **poll_interval**: Poll interval duration, e.g. `10s` (default: `0s`)
 * **reconnect_interval**: Reconnect interval when connection is lost, e.g. `1m` (default: `1m`)
 * **log_level**: Log level: `DEBUG`, `INFO`, `WARN`, `ERROR` (default: `INFO`)
